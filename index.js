@@ -47,6 +47,9 @@ function checkNumbersEmpty() {
 }
 function negative() {
     display = "-" + display;
+    if (display.includes("--")) {
+        display = display.replace("--", "");
+    }
     updateDisplay();
 }
 function percent() {
