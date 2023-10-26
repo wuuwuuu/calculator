@@ -10,33 +10,33 @@
     <div class="calculator">
         <div class="display"></div>
         <div class="row-1">
-            <button class="clear">AC</button>
-            <button class="negative">+/-</button>
-            <button class="percent">%</button>
-            <button class="divide">/</button>
+            <button class="clear" onclick="allClear()">AC</button>
+            <button class="negative" onclick ="negative()">+/-</button>
+            <button class="percent" onclick = "percent()">%</button>
+            <button class="divide" onclick="divide()">/</button>
         </div>
         <div class="row-2">
-            <button class="seven">7</button>
-            <button class="eight">8</button>
-            <button class="nine">9</button>
-            <button class="multiply">*</button>
+            <button class="seven" onclick="seven()">7</button>
+            <button class="eight" onclick="eight()">8</button>
+            <button class="nine" onclick="nine()">9</button>
+            <button class="multiply" onclick="multiply()">*</button>
         </div>  
         <div class="row-3">
-            <button class="four">4</button>
-            <button class="five">5</button>
-            <button class="six">6</button>
-            <button class="minus">-</button>
+            <button class="four" onclick="four()">4</button>
+            <button class="five" onclick="five()">5</button>
+            <button class="six" onclick="six()">6</button>
+            <button class="minus" onclick="subtract()">-</button>
         </div>
         <div class="row-4">
-            <button class="one">1</button>
-            <button class="two">2</button>
-            <button class="three">3</button>
-            <button class="plus">+</button>
+            <button class="one" onclick= "one()">1</button>
+            <button class="two" onclick ="two()">2</button>
+            <button class="three" onclick="three()">3</button>
+            <button class="plus" onclick="add()">+</button>
         </div>
         <div class="row-5">
-            <button class="zero">0</button>
-            <button class="decimal">.</button>
-            <button class="equal">=</button>
+            <button class="zero" onclick = "zero()">0</button>
+            <button class="decimal" onclick="decimal()">.</button>
+            <button class="equal" onclick="evaluateOperation()">=</button>
         </div>
     </div>
 </body>
