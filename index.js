@@ -57,6 +57,9 @@ function percent() {
     updateDisplay();
 }
 function evaluateOperation() {
+    if (operator == "") {
+        return;
+    }
     checkNumbersEmpty();
     operate("");
 }
@@ -124,6 +127,9 @@ function nine () {
 
 }
 function zero () {
+    if (display == "0") {
+        return;
+    }
     display += 0;
     updateDisplay();
 }
